@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="shortcut icon" href="../assets/image/favicon.ico" />
+    <link rel="stylesheet" href="../css/estilo.css" />
+    <title>Contacto</title>
+    <meta name="description" content="Tienda online de equipos y accesorios gaming">
+    <meta name="keywords"
+        content="equipos, accesorios, gaming, notebook, pc de escritorio, procesadores, intel, amd, asus, logitech">
+</head>
+
+<body class="bg-light h-100">
+
+    <!-- MENU DE NAVEGACION  -->
+
+    <header class="container-fluid sticky-top">
+        <div class="row">
+            <nav class="navbar-expand-md navbar-light px-5">
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand text-white d-md-none" href="#">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon bg-light"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <a href="../index.html"><img class="logoHeader" src="../assets/image/logo_header.jpg"
+                                alt="logo de header" /></a>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page"
+                                    href="../pages/notebook.html">Notebooks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../pages/pc_armada.html">PC Armada</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  text-white componente" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Componentes
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item"
+                                            href="https://www.intel.la/content/www/xl/es/gaming/resources/gaming-processor-names.html"
+                                            target="_blank">Procesadores Intel</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://www.amd.com/es/processors"
+                                            target="_blank">Procesadores Amd</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./contacto.html">Reserva tu Equipo</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscar Productos"
+                                aria-label="Search" />
+                            <button class="btn btn-outline-primary text-white" type="submit">
+                                Buscar
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MENU SECUNDARIO  -->
+
+    <nav class="container-fluid bg-black d-none d-sm-block">
+        <div class="row overflow-auto">
+            <div class="col">
+                <ul class="d-flex align-items-center justify-content-around h-100">
+                    <li class="menuSecundario">
+                        <a href="https://www.nvidia.com/es-la/" target="_blank"><img class="logoNvidia"
+                                src="../assets/image/logo_nvidia.jpg" alt="Logo de Nvidia" /></a>
+                    </li>
+                    <li class="menuSecundario">
+                        <a href="https://www.asus.com/ar/" target="_blank"><img class="logoAsus"
+                                src="../assets/image/logo_asus.jpg" alt="Logo de Asus" /></a>
+                    </li>
+                    <li class="menuSecundario">
+                        <a href="https://www.trust.com/es" target="_blank"><img class="logoTrust"
+                                src="../assets/image/logo_trust.jpeg" alt="Logo de Trust" /></a>
+                    </li>
+                    <li class="menuSecundario">
+                        <a href="https://www.razer.com/" target="_blank"><img class="logoRazer"
+                                src="../assets/image/logo_razer.png" alt="Logo de Razer" /></a>
+                    </li>
+                    <li class="menuSecundario">
+                        <a href="https://www.logitechstore.com.ar/" target="_blank"><img class="logoLogitech"
+                                src="../assets/image/logo_logitech.png" alt="Logo de Logitech" />
+                        </a>
+                    </li>
+                    <li class="menuSecundario">
+                        <a href="https://www.aorus.com/es-ar" target="_blank"><img class="logoAorus"
+                                src="../assets/image/logo_aorus.jpg" alt="Logo de Aorus" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+
+    <aside class="container-fluid bg-dark text-white d-flex justify-content-center ">
+        <div class="row h-100">
+            <h4 class="text-white text-center mt-2">Reserva tu Equipo</h4>
+            <div class="col py-5 col-lg-6 w-lg-100 ">
+                <form method="get" id="formulario">
+                    <div class="mb-3">
+                        <label for="Nombre" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="Nombre" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Telefono" class="form-label">Telefono:</label>
+                        <input type="tel" class="form-control" id="Telefono" placeholder="Ingrese su telefono">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="Email" placeholder="Ingrese su email">
+                    </div>
+                    <div class="py-4">
+                        <label for="Modelo" class="form-label">Seleccionar modelo:</label>
+                        <select name="modelo" id="Modelo">
+                            <option value="NOTEBOOK BANGHO MAX L4 INTEL CORE I3 10110U SSD 240GB 8GB 14">NOTEBOOK BANGHO
+                                MAX
+                                L4 INTEL CORE I3 10110U SSD 240GB 8GB 14</option>
+                            <option value="NOTEBOOK LENOVO 1-14IGL0 CELERON 4GB SSD 64GB 14 W10">NOTEBOOK LENOVO
+                                1-14IGL0 CELERON 4GB SSD 64GB 14 W10</option>
+                            <option value="NOTEBOOK DELL INSPIRON 3515 RYZEN 5 8GB SSD 256GB 15.6 W11">NOTEBOOK DELL
+                                INSPIRON 3515 RYZEN 5 8GB SSD 256GB 15.6 W11</option>
+                            <option value="NOTEBOOK ASUS X515EA-BQ085 I3 1115G4 4GB SSD 256GB 15.6 FREE">NOTEBOOK ASUS
+                                X515EA-BQ085 I3 1115G4 4GB SSD 256GB 15.6 FREE</option>
+                            <option value="NOTEBOOK ASUS TUF GAMING FX516PC I5 11300H 16GB SSD 512GB RTX
+                            3050 15.6 FREE">NOTEBOOK ASUS TUF GAMING FX516PC I5 11300H 16GB SSD 512GB RTX
+                                3050 15.6 FREE
+                            </option>
+                            <option value="NOTEBOOK GIGABYTE AORUS 5 KE4 I7 12700H 16GB SSD 1TB RTX 3060
+                            15.6 W10 ">NOTEBOOK GIGABYTE AORUS 5 KE4 I7 12700H 16GB SSD 1TB RTX 3060 15.6 W10 </option>
+                            <option value="NOTEBOOK LENOVO THINKBOOK G2 CORE I7 1165G7 8GB SSD 256GB 15.6
+                            FREE">NOTEBOOK LENOVO THINKBOOK G2 CORE I7 1165G7 8GB SSD 256GB 15.6 FREE 4</option>
+                            <option value="NOTEBOOK GIGABYTE AORUS 17G I7 11800H RTX 3070 16GB SSD 512GB 17
+                            W10 ">NOTEBOOK GIGABYTE AORUS 17G I7 11800H RTX 3070 16GB SSD 512GB 17 W10 </option>
+                            <option value="PC INTEL CELERON DUAL CORE G5905 SSD 240">PC INTEL CELERON DUAL CORE G5905
+                                SSD 240</option>
+                            <option value=" PC INTEL DUAL CORE PENTIUM G6405 SSD 240GB"> PC INTEL DUAL CORE PENTIUM
+                                G6405 SSD 240GB</option>
+                            <option value="PC AMD RYZEN 4 4100 8GB SSD 240 GT710">PC AMD RYZEN 4 4100 8GB SSD 240 GT710
+                            </option>
+                            <option value="PC INTEL I5 10400 SSD 240GB 8GB W10">PC INTEL I5 10400 SSD 240GB 8GB W10
+                            </option>
+                            <option value="PC INTEL GAMER I7 10700F 16GB SSD 240GB GTX 1660TI 6GB">PC INTEL GAMER I7
+                                10700F 16GB SSD 240GB GTX 1660TI 6GB</option>
+                            <option value="PC GAMER INTEL PRO CORE I7 10700 16GB SSD 240GB RTX
+                            3060TI 8GB ">PC GAMER INTEL PRO CORE I7 10700 16GB SSD 240GB RTX 3060TI 8GB </option>
+                            <option value="PC INTEL CORE I9 10900 SSD240 16GB">PC INTEL CORE I9 10900 SSD240 16GB
+                            </option>
+                            <option value="PC INTEL I9 12900 16GB SSD 240GB + MONITOR 22">PC INTEL I9 12900 16GB SSD
+                                240GB + MONITOR 22</option>
+
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Comentario" class="form-label">Comentario:</label>
+                        <textarea class="form-control" id="Comentario" rows="1"></textarea>
+                    </div>
+                    <input type="submit" value="Reservar" class="btn btn-secondary  " id="botonReservar">
+                    <input type="reset" value="Limpiar" class="btn btn-secondary  " id="botonLimpiar">
+                </form>
+
+                <button id="BtnReserva" class="mt-2">Ver reservas realizadas</button>
+                <div id="containerReserva"></div>
+
+            </div>
+            <div class="col py-5  col-lg-6 text-center overflow-hidden d-none d-lg-block">
+                <h6 class="m-2">Abasto Shopping - Corriente 3247</h6>
+                <a href="https://www.google.com/maps/place/Abasto+Shopping/@-34.6031487,-58.410841,15z/data=!4m5!3m4!1s0x0:0xfc0cf5c054da4aa1!8m2!3d-34.6031487!4d-58.410841"
+                    target="_blank"><img src="../assets/image/imagen_sucursal/direccion_sucursa.jpg"
+                        alt="Imagen Contacto" /></a>
+            </div>
+        </div>
+    </aside>
+
+
+    <!-- ESTE ES EL FOOTER  -->
+
+    <footer class="container-fluid text-white text-center">
+        <div class="row">
+            <div class="col" id="footer1">
+                <h6>Atencion al cliente</h6>
+                <h6>0800 423 2441</h6>
+                <h6>Lun. a Vie. de 9 a 18h. Sab de 10 a 14h.</h6>
+            </div>
+            <div class="col" id="footer2">
+                <h6>Seguinos para conocer las ultimas novedades</h6>
+                <a href="https://www.instagram.com/" target="_blank"><img src="../assets/image/logo_instagram .png"
+                        alt="Logo de Instagram" /></a>
+                <a href="https://es-la.facebook.com/" target="_blank"><img src="../assets/image/logo_facebook.png"
+                        alt="Logo de Facebook" /></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="../assets/image/logo_youtube.png"
+                        alt="Logo de Youtube" /></a>
+                <a href="../pages/quienes_somos.html">
+                    <h6 class="text-white">¿Quienes Somos?</h6>
+                </a>
+            </div>
+            <div class="col">
+                <h6>Copyright © 2022 - Vr gamer</h6>
+                <a href="../index.html"><img src="../assets/image/logo_footer.png" alt="Logo Vr Gamer Footer" /></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AGREGO COMANDOS DE JS DE LA HERRAMIENTA BOOSTRAP -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+
+
+    <script src="../scripts/reserva.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    </script>
+
+
+
+</body>
+
+</html>
