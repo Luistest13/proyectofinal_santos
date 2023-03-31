@@ -1,0 +1,169 @@
+@font-face {
+  font-family: AppelFont;
+  src: url("../assets/font/Proxima Nova Font.otf");
+}
+
+body {
+  font-family: AppelFont;
+}
+
+body header nav {
+  background: linear-gradient(90deg, #151085 0%, #120449 54%, #06063c 100%);
+}
+
+body header nav div a {
+  text-decoration: none;
+}
+
+body header nav div a .logoHeader {
+  height: 80px;
+  width: 80px;
+}
+
+body header nav ul li .componente:hover {
+  background-color: black;
+}
+
+body header nav ul li a:hover {
+  border-bottom: solid 4px white;
+}
+
+nav div ul .menuSecundario:hover {
+  transform: scale(1.3);
+  transition: all 1s;
+}
+
+nav div ul li .logoNvidia {
+  height: 40px;
+  width: auto;
+}
+
+nav div ul li .logoAsus {
+  height: 25px;
+  width: auto;
+}
+
+nav div ul li .logoTrust {
+  height: 15px;
+  width: auto;
+}
+
+nav div ul li .logoRazer {
+  height: 35px;
+  width: auto;
+}
+
+nav div ul li .logoLogitech {
+  height: 35px;
+  width: auto;
+}
+
+nav div ul li .logoAorus {
+  height: 15px;
+  width: auto;
+}
+
+main div #contenedorPrincipal p {
+  text-align: center;
+}
+
+main div #contenedorPrincipal:hover {
+  box-shadow: 0px 1px 10px black;
+  transform: translateY(-2%);
+  transition: all 2s ease;
+}
+
+main div .card p {
+  text-align: center;
+}
+
+main div .card:hover {
+  box-shadow: 0px 1px 10px black;
+  transform: translateY(-2%);
+  transition: all 2s ease;
+}
+
+section div #contenedorSecundario p {
+  text-align: center;
+}
+
+section div #contenedorSecundario:hover {
+  box-shadow: 0px 1px 10px black;
+  transform: translateY(-2%);
+  transition: all 2s ease;
+}
+
+section div .card p {
+  text-align: center;
+}
+
+section div .card:hover {
+  box-shadow: 0px 1px 10px black;
+  transform: translateY(-2%);
+  transition: all 2s ease;
+}
+
+body #informacionAdicional {
+  height: 20vh;
+  background: linear-gradient(90deg, #111c4d 0%, #171769 58%, #20204e 100%);
+}
+
+div #seguimientoCompra .card:hover {
+  background-color: grey;
+}
+
+body footer {
+  background: linear-gradient(90deg, #151085 0%, #120449 54%, #06063c 100%);
+}
+
+body footer div #footer1 {
+  border-right: 2px solid white;
+}
+
+body footer div #footer2 {
+  border-right: 2px solid white;
+}
+
+body footer div #footer2 a {
+  text-decoration: none;
+}
+
+div #contenedorPcArmadaPrincipal:hover {
+  box-shadow: 0px 1px 10px black;
+  transition: all ease;
+}
+
+div .contenedorPcArmadaPrincipal:hover {
+  box-shadow: 0px 1px 10px black;
+  transition: all ease;
+}
+
+div #contenedorPcArmadaSecundario:hover {
+  box-shadow: 0px 1px 10px black;
+  transition: all ease;
+}
+
+div .contenedorPcArmadaSecundario:hover {
+  box-shadow: 0px 1px 10px black;
+  transition: all ease;
+}
+
+div #contenedorNotebookPrincipal:hover {
+  box-shadow: 0px 1px 10px black;
+  transition: all ease;
+}
+
+div .contenedorNotebookPrincipal:hover {
+  box-shadow: 0px 1px 10px black;
+  transition: all ease;
+}
+
+div #contenedorNotebookSecundario:hover {
+  box-shadow: 0px 1px 10px black;
+  transition: all ease;
+}
+
+div .contenedorNotebookSecundario:hover {
+  box-shadow: 0px 1px 10px black;
+  transition: all ease;
+}
